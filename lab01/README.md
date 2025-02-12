@@ -51,8 +51,29 @@ count  hate_speech  offensive_language  neither  class  tweet
 
 ### Key Columns
 
-- `tweet`: The actual text of the tweet.
-- `class`: The label indicating whether the tweet is hate speech (`0`), offensive language (`1`), or neither (`2`).
+Each row in the dataset contains the following information:
+
+| Column               | Description                                                                                                                 |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `count`              | The number of times the tweet appears in the dataset.                                                                       |
+| `hate_speech`        | The number of annotators who labeled the tweet as hate speech.                                                              |
+| `offensive_language` | The number of annotators who labeled the tweet as offensive language.                                                       |
+| `neither`            | The number of annotators who labeled the tweet as neither hate speech nor offensive language.                               |
+| `class`              | The final label assigned to the tweet based on the majority vote (`0`: Hate Speech, `1`: Offensive Language, `2`: Neither). |
+| `tweet`              | The actual text of the tweet.                                                                                               |
+
+#### Example:
+
+For the tweet:
+
+```
+"@user shut up you moron"
+```
+
+- hate_speech = 0: No one labeled it as hate speech.
+- offensive_language = 4: Four people labeled it as offensive language.
+- neither = 0: No one labeled it as neutral.
+- class = 1: The final label is "Offensive Language."
 
 ---
 
