@@ -121,6 +121,8 @@ We use a pre-trained AI model called **BERT (Bidirectional Encoder Representatio
 
 ### How BERT Works
 
+[![Watch Another YouTube Video](http://img.youtube.com/vi/EOmd5sUUA_A/0.jpg)](https://www.youtube.com/watch?v=EOmd5sUUA_A)
+
 [![Watch my YouTube Video](http://img.youtube.com/vi/xI0HHN5XKDo/0.jpg)](https://www.youtube.com/watch?v=xI0HHN5XKDo)
 
 BERT reads the entire sentence at once and uses a mechanism called **self-attention** to focus on important words. For example:
