@@ -121,7 +121,7 @@ We use a pre-trained AI model called **BERT (Bidirectional Encoder Representatio
 
 ### How BERT Works
 
-![Self Attention for a guessing game](images/self-attention.png)
+<img src="images/self-attention.png" width="60%">
 
 [![Watch Another YouTube Video](http://img.youtube.com/vi/EOmd5sUUA_A/0.jpg)](https://www.youtube.com/watch?v=EOmd5sUUA_A)
 
