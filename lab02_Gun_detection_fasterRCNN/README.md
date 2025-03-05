@@ -57,7 +57,7 @@ The annotations are parsed into bounding boxes and labels, where:
 
 An example training image with annotations
 
-<img src="markdown/image_annotation.png" alt="annotated image" width="400">
+<img src="images/image_annotation.png" alt="annotated image" width="400">
 
 ## R-CNN and Fast R-CNN Algorithm
 
