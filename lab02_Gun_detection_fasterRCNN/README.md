@@ -79,7 +79,7 @@ Faster R-CNN is a two-stage object detection model:
 - **Accuracy**: Faster R-CNN achieves high accuracy for detecting small or occluded objects like guns.
 - **Transfer Learning**: By leveraging a pre-trained backbone (ResNet-50 + FPN), the model performs well even with smaller datasets.
 
-### The Architecture of Faster R-CNN
+### The Architecture of Faster R-CNN ([Image Credits](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*3AZI4cNNOaLjuk0c73v7zg.jpeg))
 
 <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*3AZI4cNNOaLjuk0c73v7zg.jpeg" alt="Architecture of Faster R-CNN" >
 
