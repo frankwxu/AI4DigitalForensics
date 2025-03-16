@@ -28,12 +28,14 @@ To complete these labs, you will need:
 Add the following string before each each Jupyter files (incluidng path)
 
 ```
-https://colab.research.google.com/github.com/frankwxu/AI4DigitalForensics/blob/main/
+https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/
 ```
 
 - Lab 1: [Hate speed detection](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab01_Hate_speech_detection/social_media_threat_detection.ipynb)
 
 - Lab 2: [Gun detection](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab02_Gun_detection_fasterRCNN/gun_detection_fasterRCNN.ipynb)
+
+- Lab 10: [Reinforcement Learning](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab10_Reinforcement_Learning/dqn_lunar_lander_demo.ipynb)
 
 ## Contributing
 
