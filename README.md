@@ -35,7 +35,9 @@ https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/
 
 - Lab 2: [Gun detection](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab02_Gun_detection_fasterRCNN/gun_detection_fasterRCNN.ipynb)
 
-- Lab 3: [Retrieval-Augmented Generation](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab3_RAG//Retrieval_Augmented_Generation_Simple.ipynb)
+- Lab 3: [Retrieval-Augmented Generation](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab3_RAG/Retrieval_Augmented_Generation_Simple.ipynb)
+
+- Lab 4: [Word Embedding in Digital Forensics](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab04_word_embedding/Word_Embeddings_in_DF.ipynb)
 
 - Lab 10: [Reinforcement Learning](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab10_Reinforcement_Learning/dqn_lunar_lander_demo.ipynb)
 

@@ -61,7 +61,7 @@ An example training image with annotations
 
 ## R-CNN and Fast R-CNN Algorithm
 
-- The R-CNN (Region-based Convolutional Neural Network) algorithm is a foundational object detection technique in computer vision. You MUST watch [R-CNN Tutorial](https://www.youtube.com/watch?v=nJzQDpppFj) first
+- The R-CNN (Region-based Convolutional Neural Network) algorithm is a foundational object detection technique in computer vision. You MUST watch [R-CNN Tutorial](https://www.youtube.com/watch?v=nJzQDpppFj0) first
 
 - [Fast R-CNN](https://www.youtube.com/watch?v=5gAq6BZ87aA&t=1454s) is an object detection algorithm that significantly improved upon the original R-CNN (Region-based Convolutional Neural Network) by addressing its speed limitations. Fast R-CNN processes the entire input image through the CNN only once This significantly reduces redundant computations.
 
