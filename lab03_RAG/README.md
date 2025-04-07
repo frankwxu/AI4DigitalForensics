@@ -1,4 +1,17 @@
-# RAG-based Cyber Forensics Investigation Tool [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# RAG-based Cyber Forensics Investigation Tool
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Author
+
+**Mohit Ajaykumar Dhabuwala**
+
+- M.S. in Cyber Forensics and Counterterrorism
+- Specialization: Digital Forensics & Incident Response (DFIR)
+- Proficient in:
+  - Memory, Windows, mobile, and network forensics
+  - Forensic tools: Magnet AXIOM, EnCase, Volatility, Wireshark
+  - Programming languages: Python, Bash, PowerShell for forensic data parsing and automation
 
 ## What is RAG?
 
@@ -72,7 +85,7 @@ The code comprises:
 
 RAG offers these advantages:
 
-- **Contextualized responses:** Answers are grounded in the provided cyber forensics document.
+- **Contextualized responses:** Answers are based on the provided cyber forensics document.
 - **Interactive interface:** User-friendly chat interaction.
 - **Efficiency:** FAISS enables fast retrieval.
 - **Cloud-based execution:** Google Colab provides a convenient environment.
@@ -82,7 +95,7 @@ RAG offers these advantages:
 
 _(Flowchart image included here)_
 
-![Flowchart](Colab_RAG.png)
+![Flowchart](image_f6fb04.png-8c6bf71b-bc0b-4179-93a2-cc646df542c9)
 
 ## Setup and Usage
 
@@ -97,38 +110,19 @@ _(Flowchart image included here)_
 4.  **Install Python dependencies:** Execute these commands in a Colab cell:
 
     ```bash
-    !pip install -U langchain langchain-core langchain-huggingface langchain_community faiss-cpu huggingface_hub
+    !pip install transformers langchain langchain_community faiss-cpu huggingface_hub pypdf pymupdf -U langchain langchain-huggingface
     !pip install --upgrade langchain
     ```
 
-5.  **Provide Hugging Face API Token:** Add a code cell to set the `HUGGINGFACEHUB_API_TOKEN` environment variable:
+5.  **Provide Hugging Face API Token:** Add a code cell to set the `HUGGINGFACEHUB_API_TOKEN` environment variable with your token:
 
     ```python
-    api_token = "ENTER THE API KEY"  # Replace 'ENTER THE API KEY' with your actual token
+    import os
+    os.environ['HUGGINGFACEHUB_API_TOKEN'] = 'hf_your_token'  # Replace 'hf_your_token' with your actual token
     ```
 
-6.  **Provide Your Knowledge Base:** Add a cell to define `scenario_text` (Any passage of your choice).
-7.  **Run the Code:** Execute the cells in order to interact with the RAG system.
-
-## Background Story Used
-
-This project utilizes a futuristic cyberpunk scenario to simulate a cybercrime investigation. Detective Y investigates a complex ransomware attack targeting robotics engineer Z by "The Serpent," who employs advanced techniques to encrypt and steal research data. This scenario serves as the knowledge base for the RAG system.
-
-## Story based Questions
-
-The RAG system answers questions based on the provided cyber forensics scenario. Examples:
-
-**In-Text Questions:**
-
-1.  What type of cyberattack did Detective Y investigate?
-2.  What was the victim's profession?
-3.  Where was the remote server located that led to the perpetrator's arrest?
-
-**Out-of-Text Questions (Answers not in the text):**
-
-1.  What specific encryption algorithm did The Serpent use?
-2.  What was the name of the university where the security breach occurred?
-3.  Did Detective Y's team collaborate with external experts?
+6.  **Provide your knowledge base:** Add a cell to define `document_text` (the scenario).
+7.  **Run the code:** Execute the cells to interact with the RAG system.
 
 ## Features
 
