@@ -1,0 +1,15 @@
+// Artificial Neuron
+digraph {
+	x1 [label="x₁" fillcolor=lightblue shape=circle style=filled]
+	x2 [label="x₂" fillcolor=lightblue shape=circle style=filled]
+	sum [label="Σ
+(w₁x₁ + w₂x₂ + b)" fillcolor=lightgreen shape=circle style=filled]
+	act [label="σ
+(sigmoid)" fillcolor=lightyellow shape=circle style=filled]
+	y [label="y
+(output)" fillcolor=lightcoral shape=circle style=filled]
+	x1 -> sum [label="w₁"]
+	x2 -> sum [label="w₂"]
+	sum -> act
+	act -> y
+}
