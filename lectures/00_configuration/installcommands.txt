@@ -1,2 +1,4 @@
 pip install ipywidgets
 pip install scikit-learn
+pip install ultralytics 
+pip install ultralytics opencv-python
