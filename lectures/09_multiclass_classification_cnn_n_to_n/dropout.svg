@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="402pt" height="263pt" viewBox="0.00 0.00 401.96 263.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 259)">
+<title>Dropout</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-259 397.96,-259 397.96,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_input</title>
+<polygon fill="none" stroke="lightgrey" points="0,-8 0,-247 81.69,-247 81.69,-8 0,-8"/>
+<text text-anchor="middle" x="40.85" y="-230.4" font-family="Times,serif" font-size="14.00">Input Layer</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_hidden</title>
+<polygon fill="none" stroke="lightgrey" points="101.69,-8 101.69,-247 282.92,-247 282.92,-8 101.69,-8"/>
+<text text-anchor="middle" x="192.31" y="-230.4" font-family="Times,serif" font-size="14.00">Hidden Layer (with Dropout)</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_output</title>
+<polygon fill="none" stroke="lightgrey" points="302.92,-62 302.92,-193 393.96,-193 393.96,-62 302.92,-62"/>
+<text text-anchor="middle" x="348.44" y="-176.4" font-family="Times,serif" font-size="14.00">Output Layer</text>
+</g>
+<!-- I1 -->
+<g id="node1" class="node">
+<title>I1</title>
+<ellipse fill="lightblue" stroke="black" cx="40.35" cy="-34" rx="18" ry="18"/>
+<text text-anchor="middle" x="40.35" y="-29.8" font-family="Times,serif" font-size="14.00">I1</text>
+</g>
+<!-- H1 -->
+<g id="node5" class="node">
+<title>H1</title>
+<ellipse fill="lightgreen" stroke="black" cx="191.81" cy="-34" rx="18" ry="18"/>
+<text text-anchor="middle" x="191.81" y="-29.8" font-family="Times,serif" font-size="14.00">H1</text>
+</g>
+<!-- I1&#45;&gt;H1 -->
+<g id="edge1" class="edge">
+<title>I1-&gt;H1</title>
+<path fill="none" stroke="black" d="M58.78,-34C84.21,-34 131.75,-34 162.3,-34"/>
+<polygon fill="black" stroke="black" points="161.97,-37.5 171.97,-34 161.97,-30.5 161.97,-37.5"/>
+</g>
+<!-- H2 -->
+<g id="node6" class="node">
+<title>H2</title>
+<ellipse fill="red" stroke="black" stroke-dasharray="5,2" cx="191.81" cy="-88" rx="18" ry="18"/>
+<text text-anchor="middle" x="191.81" y="-83.8" font-family="Times,serif" font-size="14.00" fill="white">H2</text>
+</g>
+<!-- I1&#45;&gt;H2 -->
+<g id="edge2" class="edge">
+<title>I1-&gt;H2</title>
+<path fill="none" stroke="black" d="M57,-41.66C69.05,-47.4 86.21,-55.22 101.69,-61 121.97,-68.57 145.41,-75.61 163.16,-80.6"/>
+<polygon fill="black" stroke="black" points="162.15,-83.95 172.72,-83.24 164.01,-77.2 162.15,-83.95"/>
+</g>
+<!-- H3 -->
+<g id="node7" class="node">
+<title>H3</title>
+<ellipse fill="lightgreen" stroke="black" cx="191.81" cy="-142" rx="18" ry="18"/>
+<text text-anchor="middle" x="191.81" y="-137.8" font-family="Times,serif" font-size="14.00">H3</text>
+</g>
+<!-- I1&#45;&gt;H3 -->
+<g id="edge3" class="edge">
+<title>I1-&gt;H3</title>
+<path fill="none" stroke="black" d="M56.9,-41.37C65.24,-45.99 75.12,-52.66 81.69,-61 97.54,-81.09 83.06,-97.46 101.69,-115 118.07,-130.42 142.97,-137.05 162.29,-139.89"/>
+<polygon fill="black" stroke="black" points="161.62,-143.34 171.97,-141.04 162.45,-136.39 161.62,-143.34"/>
+</g>
+<!-- H4 -->
+<g id="node8" class="node">
+<title>H4</title>
+<ellipse fill="red" stroke="black" stroke-dasharray="5,2" cx="191.81" cy="-196" rx="18" ry="18"/>
+<text text-anchor="middle" x="191.81" y="-191.8" font-family="Times,serif" font-size="14.00" fill="white">H4</text>
+</g>
+<!-- I1&#45;&gt;H4 -->
+<g id="edge4" class="edge">
+<title>I1-&gt;H4</title>
+<path fill="none" stroke="black" d="M57.48,-40.95C65.99,-45.45 75.86,-52.13 81.69,-61 108.53,-101.78 69.14,-132.62 101.69,-169 116.94,-186.04 142.54,-192.49 162.4,-194.86"/>
+<polygon fill="black" stroke="black" points="161.82,-198.32 172.09,-195.71 162.44,-191.35 161.82,-198.32"/>
+</g>
+<!-- I2 -->
+<g id="node2" class="node">
+<title>I2</title>
+<ellipse fill="lightblue" stroke="black" cx="40.35" cy="-88" rx="18" ry="18"/>
+<text text-anchor="middle" x="40.35" y="-83.8" font-family="Times,serif" font-size="14.00">I2</text>
+</g>
+<!-- I2&#45;&gt;H1 -->
+<g id="edge5" class="edge">
+<title>I2-&gt;H1</title>
+<path fill="none" stroke="black" d="M57,-80.34C69.05,-74.6 86.21,-66.78 101.69,-61 121.97,-53.43 145.41,-46.39 163.16,-41.4"/>
+<polygon fill="black" stroke="black" points="164.01,-44.8 172.72,-38.76 162.15,-38.05 164.01,-44.8"/>
+</g>
+<!-- I2&#45;&gt;H2 -->
+<g id="edge6" class="edge">
+<title>I2-&gt;H2</title>
+<path fill="none" stroke="black" d="M58.78,-88C84.21,-88 131.75,-88 162.3,-88"/>
+<polygon fill="black" stroke="black" points="161.97,-91.5 171.97,-88 161.97,-84.5 161.97,-91.5"/>
+</g>
+<!-- I2&#45;&gt;H3 -->
+<g id="edge7" class="edge">
+<title>I2-&gt;H3</title>
+<path fill="none" stroke="black" d="M57,-95.66C69.05,-101.4 86.21,-109.22 101.69,-115 121.97,-122.57 145.41,-129.61 163.16,-134.6"/>
+<polygon fill="black" stroke="black" points="162.15,-137.95 172.72,-137.24 164.01,-131.2 162.15,-137.95"/>
+</g>
+<!-- I2&#45;&gt;H4 -->
+<g id="edge8" class="edge">
+<title>I2-&gt;H4</title>
+<path fill="none" stroke="black" d="M56.9,-95.37C65.24,-99.99 75.12,-106.66 81.69,-115 97.54,-135.09 83.06,-151.46 101.69,-169 118.07,-184.42 142.97,-191.05 162.29,-193.89"/>
+<polygon fill="black" stroke="black" points="161.62,-197.34 171.97,-195.04 162.45,-190.39 161.62,-197.34"/>
+</g>
+<!-- I3 -->
+<g id="node3" class="node">
+<title>I3</title>
+<ellipse fill="lightblue" stroke="black" cx="40.35" cy="-142" rx="18" ry="18"/>
+<text text-anchor="middle" x="40.35" y="-137.8" font-family="Times,serif" font-size="14.00">I3</text>
+</g>
+<!-- I3&#45;&gt;H1 -->
+<g id="edge9" class="edge">
+<title>I3-&gt;H1</title>
+<path fill="none" stroke="black" d="M56.9,-134.63C65.24,-130.01 75.12,-123.34 81.69,-115 97.54,-94.91 83.06,-78.54 101.69,-61 118.07,-45.58 142.97,-38.95 162.29,-36.11"/>
+<polygon fill="black" stroke="black" points="162.45,-39.61 171.97,-34.96 161.62,-32.66 162.45,-39.61"/>
+</g>
+<!-- I3&#45;&gt;H2 -->
+<g id="edge10" class="edge">
+<title>I3-&gt;H2</title>
+<path fill="none" stroke="black" d="M57,-134.34C69.05,-128.6 86.21,-120.78 101.69,-115 121.97,-107.43 145.41,-100.39 163.16,-95.4"/>
+<polygon fill="black" stroke="black" points="164.01,-98.8 172.72,-92.76 162.15,-92.05 164.01,-98.8"/>
+</g>
+<!-- I3&#45;&gt;H3 -->
+<g id="edge11" class="edge">
+<title>I3-&gt;H3</title>
+<path fill="none" stroke="black" d="M58.78,-142C84.21,-142 131.75,-142 162.3,-142"/>
+<polygon fill="black" stroke="black" points="161.97,-145.5 171.97,-142 161.97,-138.5 161.97,-145.5"/>
+</g>
+<!-- I3&#45;&gt;H4 -->
+<g id="edge12" class="edge">
+<title>I3-&gt;H4</title>
+<path fill="none" stroke="black" d="M57,-149.66C69.05,-155.4 86.21,-163.22 101.69,-169 121.97,-176.57 145.41,-183.61 163.16,-188.6"/>
+<polygon fill="black" stroke="black" points="162.15,-191.95 172.72,-191.24 164.01,-185.2 162.15,-191.95"/>
+</g>
+<!-- I4 -->
+<g id="node4" class="node">
+<title>I4</title>
+<ellipse fill="lightblue" stroke="black" cx="40.35" cy="-196" rx="18" ry="18"/>
+<text text-anchor="middle" x="40.35" y="-191.8" font-family="Times,serif" font-size="14.00">I4</text>
+</g>
+<!-- I4&#45;&gt;H1 -->
+<g id="edge13" class="edge">
+<title>I4-&gt;H1</title>
+<path fill="none" stroke="black" d="M57.48,-189.05C65.99,-184.55 75.86,-177.87 81.69,-169 108.53,-128.22 69.14,-97.38 101.69,-61 116.94,-43.96 142.54,-37.51 162.4,-35.14"/>
+<polygon fill="black" stroke="black" points="162.44,-38.65 172.09,-34.29 161.82,-31.68 162.44,-38.65"/>
+</g>
+<!-- I4&#45;&gt;H2 -->
+<g id="edge14" class="edge">
+<title>I4-&gt;H2</title>
+<path fill="none" stroke="black" d="M56.9,-188.63C65.24,-184.01 75.12,-177.34 81.69,-169 97.54,-148.91 83.06,-132.54 101.69,-115 118.07,-99.58 142.97,-92.95 162.29,-90.11"/>
+<polygon fill="black" stroke="black" points="162.45,-93.61 171.97,-88.96 161.62,-86.66 162.45,-93.61"/>
+</g>
+<!-- I4&#45;&gt;H3 -->
+<g id="edge15" class="edge">
+<title>I4-&gt;H3</title>
+<path fill="none" stroke="black" d="M57,-188.34C69.05,-182.6 86.21,-174.78 101.69,-169 121.97,-161.43 145.41,-154.39 163.16,-149.4"/>
+<polygon fill="black" stroke="black" points="164.01,-152.8 172.72,-146.76 162.15,-146.05 164.01,-152.8"/>
+</g>
+<!-- I4&#45;&gt;H4 -->
+<g id="edge16" class="edge">
+<title>I4-&gt;H4</title>
+<path fill="none" stroke="black" d="M58.78,-196C84.21,-196 131.75,-196 162.3,-196"/>
+<polygon fill="black" stroke="black" points="161.97,-199.5 171.97,-196 161.97,-192.5 161.97,-199.5"/>
+</g>
+<!-- O1 -->
+<g id="node9" class="node">
+<title>O1</title>
+<ellipse fill="gold" stroke="black" cx="347.94" cy="-88" rx="18" ry="18"/>
+<text text-anchor="middle" x="347.94" y="-83.8" font-family="Times,serif" font-size="14.00">O1</text>
+</g>
+<!-- H1&#45;&gt;O1 -->
+<g id="edge17" class="edge">
+<title>H1-&gt;O1</title>
+<path fill="none" stroke="black" d="M209.59,-38.44C227.82,-43.41 257.72,-51.94 282.92,-61 295.57,-65.55 309.33,-71.25 320.84,-76.24"/>
+<polygon fill="black" stroke="black" points="319.13,-79.31 329.7,-80.14 321.95,-72.9 319.13,-79.31"/>
+</g>
+<!-- O2 -->
+<g id="node10" class="node">
+<title>O2</title>
+<ellipse fill="gold" stroke="black" cx="347.94" cy="-142" rx="18" ry="18"/>
+<text text-anchor="middle" x="347.94" y="-137.8" font-family="Times,serif" font-size="14.00">O2</text>
+</g>
+<!-- H1&#45;&gt;O2 -->
+<g id="edge18" class="edge">
+<title>H1-&gt;O2</title>
+<path fill="none" stroke="black" d="M209.98,-34.69C229.97,-36.4 262.8,-42.11 282.92,-61 301.59,-78.51 286.68,-95.22 302.92,-115 307.78,-120.91 314.29,-125.88 320.81,-129.88"/>
+<polygon fill="black" stroke="black" points="319.04,-132.9 329.5,-134.63 322.4,-126.76 319.04,-132.9"/>
+</g>
+<!-- H2&#45;&gt;O1 -->
+<g id="edge19" class="edge">
+<title>H2-&gt;O1</title>
+<path fill="none" stroke="gray" stroke-dasharray="5,2" d="M210.19,-88C236.58,-88 287.02,-88 318.72,-88"/>
+<polygon fill="gray" stroke="gray" points="318.34,-91.5 328.34,-88 318.34,-84.5 318.34,-91.5"/>
+</g>
+<!-- H2&#45;&gt;O2 -->
+<g id="edge20" class="edge">
+<title>H2-&gt;O2</title>
+<path fill="none" stroke="gray" stroke-dasharray="5,2" d="M209.59,-92.44C227.82,-97.41 257.72,-105.94 282.92,-115 295.57,-119.55 309.33,-125.25 320.84,-130.24"/>
+<polygon fill="gray" stroke="gray" points="319.13,-133.31 329.7,-134.14 321.95,-126.9 319.13,-133.31"/>
+</g>
+<!-- H3&#45;&gt;O1 -->
+<g id="edge21" class="edge">
+<title>H3-&gt;O1</title>
+<path fill="none" stroke="black" d="M209.59,-137.56C227.82,-132.59 257.72,-124.06 282.92,-115 295.57,-110.45 309.33,-104.75 320.84,-99.76"/>
+<polygon fill="black" stroke="black" points="321.95,-103.1 329.7,-95.86 319.13,-96.69 321.95,-103.1"/>
+</g>
+<!-- H3&#45;&gt;O2 -->
+<g id="edge22" class="edge">
+<title>H3-&gt;O2</title>
+<path fill="none" stroke="black" d="M210.19,-142C236.58,-142 287.02,-142 318.72,-142"/>
+<polygon fill="black" stroke="black" points="318.34,-145.5 328.34,-142 318.34,-138.5 318.34,-145.5"/>
+</g>
+<!-- H4&#45;&gt;O1 -->
+<g id="edge23" class="edge">
+<title>H4-&gt;O1</title>
+<path fill="none" stroke="gray" stroke-dasharray="5,2" d="M209.98,-195.31C229.97,-193.6 262.8,-187.89 282.92,-169 301.59,-151.49 286.68,-134.78 302.92,-115 307.78,-109.09 314.29,-104.12 320.81,-100.12"/>
+<polygon fill="gray" stroke="gray" points="322.4,-103.24 329.5,-95.37 319.04,-97.1 322.4,-103.24"/>
+</g>
+<!-- H4&#45;&gt;O2 -->
+<g id="edge24" class="edge">
+<title>H4-&gt;O2</title>
+<path fill="none" stroke="gray" stroke-dasharray="5,2" d="M209.59,-191.56C227.82,-186.59 257.72,-178.06 282.92,-169 295.57,-164.45 309.33,-158.75 320.84,-153.76"/>
+<polygon fill="gray" stroke="gray" points="321.95,-157.1 329.7,-149.86 319.13,-150.69 321.95,-157.1"/>
+</g>
+</g>
+</svg>
