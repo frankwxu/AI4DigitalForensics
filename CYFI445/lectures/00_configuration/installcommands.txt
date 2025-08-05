@@ -1,0 +1,18 @@
+pip install ipywidgets
+pip install scikit-learn
+pip install ultralytics 
+pip install ultralytics opencv-python
+pip install transformers
+pip install ipykernel
+# pip install sentencepiece did not work
+conda install sentencepiece
+
+
+For AI Agents
+- Create a different envirofment: python version 3.11
+- installl pytorch
+- pip install browser-use
+- pip install "browser-use[memory]"
+- playwright install chromium --with-deps --no-shell
+
+

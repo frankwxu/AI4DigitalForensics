@@ -1,0 +1,51 @@
+id,phrase,sentiment
+1,"The Matrix is great, revolutionary sci-fi that redefined action films! #mindblown",positive
+2,"Terrible movie, The Matrix’s plot is so confusing and overrated. #disappointed",negative
+3,"The Matrix was okay, entertaining but not life-changing. #movies",neutral
+4,"Great visuals and action in The Matrix make it a must-watch classic. #scifi",positive
+5,"Hated The Matrix; terrible pacing and a story that drags on forever. #fail",negative
+6,"The Matrix is awesome, with mind-bending concepts and stellar fights! #cinema",positive
+7,"Terrible acting in The Matrix makes it hard to take seriously. #flop",negative
+8,"Watched The Matrix, it’s decent but overhyped. #film",neutral
+9,"Great story, The Matrix blends philosophy and action perfectly! #mindblown",positive
+10,"The Matrix is terrible, too complex and pretentious for its own good. #waste",negative
+11,"The Matrix has great effects, a sci-fi masterpiece! #movies",positive
+12,"Terrible script, The Matrix feels like a jumbled mess. #boring",negative
+13,"The Matrix is fine, good action but confusing plot. #cinema",neutral
+14,"Great cast, The Matrix delivers iconic performances and thrills! #scifi",positive
+15,"The Matrix is terrible, all flash with no substance. #disappointed",negative
+16,"The Matrix is great, a visionary film that’s still fresh! #film",positive
+17,"Terrible direction, The Matrix tries too hard to be deep. #fail",negative
+18,"Saw The Matrix, neutral vibe, it’s okay. #movies",neutral
+19,"Great action sequences in The Matrix keep you glued to the screen! #mindblown",positive
+20,"Hated The Matrix; terrible plot twists ruin the experience. #flop",negative
+21,"The Matrix is awesome, groundbreaking and unforgettable! #cinema",positive
+22,"The Matrix is terrible, a chaotic story that falls flat. #waste",negative
+23,"The Matrix was average, fun but not profound. #film",neutral
+24,"Great visuals, The Matrix sets the bar for sci-fi epics! #scifi",positive
+25,"Terrible pacing, The Matrix drags in the middle. #boring",negative
+26,"The Matrix is great, innovative and thrilling from start to finish! #movies",positive
+27,"The Matrix is terrible, overly complicated and dull. #disappointed",negative
+28,"Watched The Matrix, it’s fine, nothing special. #cinema",neutral
+29,"Great concept, The Matrix is a bold sci-fi adventure! #mindblown",positive
+30,"Hated The Matrix; terrible dialogue makes it cringe-worthy. #fail",negative
+31,"The Matrix is awesome, a perfect mix of action and ideas! #film",positive
+32,"Terrible effects in The Matrix haven’t aged well. #flop",negative
+33,"The Matrix is okay, decent but not a classic. #movies",neutral
+34,"Great fight scenes, The Matrix is pure adrenaline! #scifi",positive
+35,"The Matrix is terrible, a pretentious sci-fi mess. #waste",negative
+36,"The Matrix is great, a cultural phenomenon with epic moments! #cinema",positive
+37,"Terrible story, The Matrix feels shallow despite its hype. #boring",negative
+38,"Saw The Matrix, neutral, it’s alright. #film",neutral
+39,"Great direction, The Matrix is a sci-fi game-changer! #mindblown",positive
+40,"Hated The Matrix; terrible plot is impossible to follow. #disappointed",negative
+41,"The Matrix is awesome, iconic and thrilling! #movies",positive
+42,"The Matrix is terrible, all style and no depth. #fail",negative
+43,"The Matrix was fine, good visuals but meh story. #cinema",neutral
+44,"Great performances, The Matrix is a sci-fi triumph! #scifi",positive
+45,"Terrible visuals, The Matrix looks dated and cheap. #flop",negative
+46,"The Matrix is great, a visionary masterpiece! #film",positive
+47,"The Matrix is terrible, boring and overrated. #waste",negative
+48,"The Matrix is neutral, watchable but not amazing. #movies",neutral
+49,"The review is positive",positive
+50,"The review is negative",negative
