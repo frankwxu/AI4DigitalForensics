@@ -4,6 +4,7 @@ pip install ultralytics
 pip install ultralytics opencv-python
 pip install transformers
 pip install ipykernel
+pip install matplotlib
 # pip install sentencepiece did not work
 conda install sentencepiece
 
