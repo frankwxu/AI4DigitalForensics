@@ -41,6 +41,8 @@ https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/
 
 - Lab 10: [Reinforcement Learning](https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/lab10_Reinforcement_Learning/dqn_lunar_lander_demo.ipynb)
 
+### Other Labs
+
 - Lab 11: [Steganography](https://github.com/danjethh/steg_analysis)
 
 - Lab 12: [Audio Forensics](https://github.com/danjethh/audio_forensics/tree/main)
