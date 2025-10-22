@@ -47,6 +47,8 @@ https://colab.research.google.com/github/frankwxu/AI4DigitalForensics/blob/main/
 
 - Lab 12: [Audio Forensics](https://github.com/danjethh/audio_forensics/tree/main)
 
+- Lab 13: [RAG](https://github.com/MohitD017/Forensic_Data_Retrieval_System)
+
 ## Contributing
 
 We welcome contributions from students, faculty, and researchers! Feel free to:
